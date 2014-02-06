@@ -102,6 +102,20 @@ grails.plugin.springsecurity.failureHandler.defaultFailureUrl  = '/'
 
 
 
+oauth {
+	providers {
+		github {
+			api = GitHubApi
+			key = '5d6d879cb49a05f71a35'
+			secret = '85f07c888cc9f3094c3a39f1c9020b9ff09a827d'
+			successUri = '/hom/success'
+			failureUri = '/hom/failure'
+		}
+	}
+	debug = true
+}
+
+
 
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	'/':                               ['permitAll'],
@@ -114,6 +128,11 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	'/**/images/**':                  ['permitAll'],
 	'/**/favicon.ico':                ['permitAll'],
 	'/quote/login':                   ['permitAll'],
-	'/logout/**':                     ['permitAll']
+	'/logout/**':                     ['permitAll'],
+	'/oauth/**':                      ['ROLE_ADMIN'],
+	
+	
 ]
+
+
 

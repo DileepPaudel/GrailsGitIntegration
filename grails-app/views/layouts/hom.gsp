@@ -164,9 +164,7 @@
             </a> 
             <ul>
               <li class="">
-                <a href="dashboard.html">
-                  <i class="fa fa-angle-right"></i>&nbsp;Default Style
-                </a> 
+                <i class="fa fa-angle-right"></i>&nbsp;<oauth:connect provider="github">Connect to Github</oauth:connect>
               </li>
               <li class="">
                 <a href="alterne.html">

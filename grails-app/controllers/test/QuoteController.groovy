@@ -18,6 +18,10 @@ class QuoteController {
 		if (isLoggedIn()) {
 			redirect(controller: "hom", action: "index")
 			}
+		else
+		{
+			
+		}
 		
 	}
 	def home(){

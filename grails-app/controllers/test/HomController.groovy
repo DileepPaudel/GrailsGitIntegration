@@ -10,4 +10,12 @@ class HomController {
 	def nextpage(){
 		
 	}
+	@Secured(['ROLE_ADMIN'])
+	def success(){
+		render "success";
+	}
+	@Secured(['ROLE_ADMIN'])
+	def failure(){
+		render "failure"
+	}
 }

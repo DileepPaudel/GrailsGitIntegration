@@ -2,6 +2,7 @@ import org.lftech.Role
 import org.lftech.User
 import org.lftech.UserRole
 
+
 class BootStrap {
 
     def init = { servletContext ->
