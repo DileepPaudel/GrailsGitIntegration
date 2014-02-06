@@ -5,4 +5,6 @@ class HomController {
     
 	@Secured(['ROLE_ADMIN'])
     def index() { }
+	
+	def homepage(){}
 }
