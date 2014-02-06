@@ -7,4 +7,7 @@ class HomController {
     def index() { }
 	
 	def homepage(){}
+	def nextpage(){
+		
+	}
 }
