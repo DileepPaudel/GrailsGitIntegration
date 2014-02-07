@@ -18,4 +18,8 @@ class HomController {
 	def failure(){
 		render "failure"
 	}
+	@Secured(['ROLE_ADMIN'])
+	def callback(){
+		
+	}
 }
