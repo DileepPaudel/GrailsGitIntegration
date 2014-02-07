@@ -115,6 +115,7 @@ oauth {
 			secret = '85f07c888cc9f3094c3a39f1c9020b9ff09a827d'
 			successUri = '/hom/success'
 			failureUri = '/hom/failure'
+			callback='http://localhost:8080/test/hom/callback'
 		}
 	}
 	debug = true
