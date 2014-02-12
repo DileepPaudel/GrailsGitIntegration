@@ -111,8 +111,10 @@ oauth {
 	providers {
 		github {
 			api = GitHubApi
-			key = '5d6d879cb49a05f71a35'
-			secret = '85f07c888cc9f3094c3a39f1c9020b9ff09a827d'
+			key = '6d54f210bf7ca9f9cc55'   
+			//'a3d709d5a7ec544e4908'
+			secret ='efe7b83b978f9fd7023d1866b2452e515aea865e'               
+			    //'293625174412511fbdc59025993417c53696ebd5'
 			successUri = '/hom/success'
 			failureUri = '/hom/failure'
 			callback='http://localhost:8080/test/hom/callback'

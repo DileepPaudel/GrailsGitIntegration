@@ -8,6 +8,7 @@ class UrlMappings {
 		}
 		"/" ( controller:'quote', action:'login' )
 
+	//	"/books"(resources:"book")
 	//	"/"(view:"/index")
 		"500"(view:'/error')
 		

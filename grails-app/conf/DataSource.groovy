@@ -17,10 +17,10 @@ environments {
            // url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
 			pooled=true;
 			dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
-			url = "jdbc:mysql://localhost/grails"
+			url = "jdbc:mysql://localhost/grail"
 			driverClassName="com.mysql.jdbc.Driver"
 			username="root"
-			password="Nepal@123"
+			password="root"
         }
     }
     test {
